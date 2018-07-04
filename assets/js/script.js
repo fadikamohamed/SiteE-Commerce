@@ -1,4 +1,3 @@
-
 $(function() {
   var menVisible = $('#').is(':visible');
   var womanVisible = $('#').is(':visible');
@@ -13,6 +12,8 @@ $(function() {
     $('###').hide();
   } else if (accessoryVisible) {
     $('###').hide();
+  } else {
+
   }
 
 
