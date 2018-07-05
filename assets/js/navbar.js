@@ -9,4 +9,7 @@ $(document).ready(function() {
   $('.dropdown-trigger').dropdown();
   //sidenav pour responsive
   $('.sidenav').sidenav();
+$('.carousel.carousel-slider').carousel( {
+  fullWidth: true
+});
 });
