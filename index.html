@@ -2,26 +2,6 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-<<<<<<< HEAD
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <link rel="stylesheet" href="assets/css/jquery.min.css" />
-  <link rel="stylesheet" href="assets/css/jquery.css" />
-<link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Site e-commerce</title>
-</head>
-<body>
-  <div class="container" id="container">
-    <div id="navBarre">
-      <div class="wrapper" id="navBar"> <!--création navbar-->
-          <header>
-            <nav>
-              <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
-              </div>
-              <div class="logo">
-                PROJET II
-=======
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
@@ -35,21 +15,11 @@
 <body>
   <header>
 
-    <!--barre de recherche-->
-    <nav>
-      <div class="nav-wrapper">
-        <form>
-          <div class="input-field">
-            <input id="search" type="search" required>
-            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
-          </div>
-        </form>
-      </div>
-    </nav>
+
 
     <!--structure dropdown-->
-    <ul id="dropdown1" class="dropdown-content">
+    <div id="categoriesMen" class="onlyWomen onlyChildren onlyaccessory">
+    <ul id="dropdown1" class="dropdown-content"> <!--dropdown hommes-->
       <li><a href="#!"></a>Pantalons</li>
       <li><a href="#!"></a>Jeans</li>
       <li><a href="#!"></a>T-shirt</li>
@@ -57,7 +27,9 @@
       <li><a href="#!"></a>Pulls - Gilets</li>
       <li><a href="#!"></a>Manteaux - Vestes</li>
     </ul>
-    <ul id="dropdown2" class="dropdown-content">
+  </div>
+  <div id="categoriesWomen" class="onlyMen onlyChildren onlyaccessory">
+    <ul id="dropdown2" class="dropdown-content"> <!-- dropdown femmes-->
       <li><a href="#!"></a>Jupes</li>
       <li><a href="#!"></a>Robes</li>
       <li><a href="#!"></a>Pantalons</li>
@@ -66,62 +38,82 @@
       <li><a href="#!"></a>Chemisiers</li>
       <li><a href="#!"></a>Pulls - Gilets</li>
       <li><a href="#!"></a>Manteaux - Vestes</li>
-
     </ul>
-    <ul id="dropdown3" class="dropdown-content">
-      <li><h4>Filles</h4></li>
+  </div>
+  <div id="categoriesChildren" class="onlyWomen onlyMen onlyaccessory">
+    <ul id="dropdown3" class="dropdown-content"> <!--dropdown enfants -->
+      <li><h4>Filles</h4></li>    <!-- filles -->
       <li><a href="#!"></a>Jupes</li>
       <li><a href="#!"></a>Robes</li>
       <li><a href="#!"></a>Pantalons</li>
-      <li><a href="#!"></a>Jeans</li>
-      <li><a href="#!"></a>T-shirt</li>
       <li><a href="#!"></a>Chemisiers</li>
       <li><a href="#!"></a>Pulls - Gilets</li>
-      <li><a href="#!"></a>Manteaux - Vestes</li>
       <li class="divider" tabindex="-1"></li>
-      <li><h4>Garçons</h4></li>
+      <li><h4>Garçons</h4></li> <!-- garçons -->
       <li><a href="#!"></a>Pantalons</li>
+      <li><a href="#!"></a>Shorts</li>
       <li><a href="#!"></a>Jeans</li>
       <li><a href="#!"></a>T-shirt</li>
-      <li><a href="#!"></a>Chemises</li>
-      <li><a href="#!"></a>Pulls - Gilets</li>
       <li><a href="#!"></a>Manteaux - Vestes</li>
     </ul>
-    <ul id="dropdown4" class="dropdown-content">
+  </div>
+  <div id="categoriesaccessory" class="onlyWomen onlyMen onlyChildren">
+    <ul id="dropdown4" class="dropdown-content"> <!-- dropdown accesoire -->
       <li><a href="#!"></a>Sacs</li>
       <li><a href="#!"></a>Lunettes</li>
       <li><a href="#!"></a>Bijoux / autres</li>
       <li><a href="#!"></a>Chaussettes</li>
     </ul>
-
+  </div>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
     <nav>
       <!--navbar avec dropdown-->
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo">Projet II</a>
         <ul class="right hide-on-med-and-down">
+          <li>
+            <form>
+              <div class="input-field">
+                <input id="search" type="search" required>
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+              </div>
+            </form>
+          </li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Hommes<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Femmes<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Enfants<i class="material-icons right">arrow_drop_down</i></a></li>
           <li><a class="dropdown-trigger" href="#!" data-target="dropdown4">Accessoires<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li><a href="#modal1" class="waves-effect waves-light btn-flat modal-trigger"><i id="shopping_cart" class="large material-icons">shopping_cart</i></a>
+          <li><a href="#modal1" class="waves-effect waves-light btn-flat modal-trigger"><i id="shopping_cart" class="large material-icons">shopping_cart</i></a> <!-- boutons fenêtre modal -->
             <!--contenu de la fenêtre modal-->
             <div id="modal1" class="modal bottom-sheet">
               <div class="modal-content">
                 <h4>Mon panier</h4>
                 <p>Des articles, des articles, et encores des articles, de quoi modifier les quantités, supprimer des  articles, le total de la commande, et la valider.</p>
->>>>>>> aaa165c5111497d2ee64cb4f87719b01bf473ed2
               </div>
               <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-light btn">Valider le panier</a>
+                <a href="#!" class="modal-close waves-effect waves-light btn">Valider le panier</a> <!-- validation du panier -->
               </div>
             </div>
           </li>
         </ul>
       </div>
     </nav>
-
+</div>
   </header>
 
+<!-- carroussel -->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -135,65 +127,9 @@
       </div>
     </div>
   </div>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <title>Site e-commerce</title>
-</head>
-<body>
 
-    <div id="carousel"></div><!--carousel-->
 
-    <div class="row" id="content">
-      <div class="col-md-3" id="categorie">
-        <h1>Catalogue par produit</h1>
-        <h2 id="categoriesWomen" class="onlyMen onlyChildren onlyaccessory">Femmes</h2>
-        <ul>
-          <li>Robes</li>
-          <li>Jupes</li>
-          <li>Pantalon</li>
-          <li>Jeans</li>
-          <li>tshirts</li>
-          <li>Chemisiers</li>
-          <li>Pull/Gilet</li>
-          <li>Manteau/Veste</li>
-        </ul>
-        <h2id id="categoriesMen" class="onlyWomen onlyChildren onlyaccessory">Hommes</h2>
-        <ul>
-          <li>Pantalon</li>
-          <li>Jeans</li>
-          <li>tshirts</li>
-          <li>Chemises</li>
-          <li>Pull/Gilet</li>
-          <li>Manteau/Veste</li>
-        </ul>
-        <h2 id="categoriesChildren" class="onlyWomen onlyMen onlyaccessory">Enfants</h2>
-        <p>Filles</p>
-        <ul>
-          <li>Robes</li>
-          <li>Jupes</li>
-          <li>Pantalon</li>
-          <li>Jeans</li>
-          <li>tshirts</li>
-          <li>Pull/Gilet</li>
-          <li>Manteau/Veste</li>
-        </ul>
-        <p>Garçon</p>
-        <ul>
-          <li>Pantalon</li>
-          <li>chemises</li>
-          <li>Jeans</li>
-          <li>tshirts</li>
-          <li>Pull/Gilet</li>
-          <li>Manteau/Veste</li>
-        </ul>
-        <h2 id="categoriesaccessory" class="onlyWomen onlyMen onlyChildren">Accessoires</h2>
-        <ul>
-          <li>Sacs</li>
-          <li>Lunettes</li>
-          <li>Bijoux/Montres</li>
-          <li>Chaussettes</li>
-        </ul>
-        <h3>Logo</h3>
-      </div><!--categorie-->
+
 
       <div class="col-md-9" id="content1">
         <h1>Robes</h1>
@@ -201,19 +137,19 @@
           <div class="card col-md-4" style="width: 22rem;">
             <img class="card-img-top" src="assets/img/femme/robe/6b687ab05e497068951a56b42e473d48.jpg" height="210">
             <div class="card-body">
-              <p class="card-text">Mademoiselle: Robe rouge manche longue.<span style="font-weight:bold">35€</span></p>
+              <p class="card-text">Mademoiselle: Robe rouge manche longue.35euros</p>
             </div>
           </div>
           <div class="card col-md-4" style="width: 22rem;">
             <img class="card-img-top" src="assets/img/femme/robe/2af4ea3dfb164f10d998472bc0e9ce57.jpg" height="210">
             <div class="card-body">
-              <p class="card-text">Mademoiselle: Robe Bleu jeans.<span style="font-weight:bold">39.99€</span></p>
+              <p class="card-text">Mademoiselle: Robe Bleu jeans.39.99euros</p>
             </div>
           </div>
           <div class="card col-md-4" style="width: 22rem;">
             <img class="card-img-top" src="assets/img/femme/robe/00385623e4dce0c8fd60a251d5958c97.jpg" height="210">
             <div class="card-body">
-              <p class="card-text">Mademoiselle: Robe Blanche.<span style="font-weight:bold">25.99€</span></p>
+              <p class="card-text">Mademoiselle: Robe Blanche.25.99euros</p>
             </div>
           </div>
         </div>
@@ -221,36 +157,17 @@
           <div class="card col-md-4" style="width: 22rem;">
             <img class="card-img-top" src="assets/img/femme/robe/372373e88c35a3d58ebe5536ed531dee.jpg" height="210">
             <div class="card-body">
-              <p> class="card-text">Mademoiselle: Robe noir courte.<span style="font-weight:bold">35€</span></p>
+              <p class="card-text">Mademoiselle: Robe noir courte.35euros</p>
             </div>
           </div>
             <div class="card col-md-4" style="width: 22rem;">
               <img class="card-img-top" src="assets/img/femme/robe/b9fe730d334308d77f779c0234992519.jpg" height="210">
               <div class="card-body">
-                <p class="card-text">Mademoiselle: Robe patineuse rose.<span style="font-weight:bold">35€</span></p>
+                <p class="card-text">Mademoiselle: Robe patineuse rose.35euros</p>
               </div>
 
-                  </div><!--content1-->
 
 
-                </div><!--container-->
-                <script src="assets/js/jquery-3.3.1.js"></script>
-                <script src="assets/js/bootstrap.min.js"></script>
-                <script src="assets/js/script.js"></script>
-                <script src="assets/js/jquery-ui.js"></script>
-              <script src="assets/js/navbar.js"></script>
-
-              </body>
-              </html>
-
-  <div class="row" id="content"></div>
-  <div class="col-md-3" id="categorie">
-
-  </div><!--categorie-->
-
-  <div id="content1">
-
-  </div><!--content1-->
 
 
   <script src="assets/js/jquery-3.3.1.js"></script>

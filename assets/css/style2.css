@@ -15,10 +15,10 @@ header {
 .dropdown-content {
   text
 }
-.logo {
+.brand-logo {
   position: fixed;
   float: left;
-  margin: 16px 36px;
+  margin-left: 20px;
   color: #fff;
   font-weight: bold;
   font-size: 24px;
@@ -28,50 +28,22 @@ nav {
 }
 nav ul {
   list-style: none;
-  background: rgba(0,0,0,0);
-  overflow: hidden;
-  color: #fff;
+
+
   padding-left: 0;
   text-align: center;
   margin: 0;
   transition: 1s;
 }
-nav.black ul {
-  background: #000;
+.modal-content {
+  color: black;
 }
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
+nav ul li a { /* agit sur la police des onglet*/
+
+
   font-size: 20px;
 }
 #shopping_cart{
 position: center;
 color: #8bc34a;
-}
-@media(max-width: 580px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px;
-  }
-  nav ul {
-    max-height: 0px;
-    background: #000;
-  }
-  nav.black ul {
-    background: #000
-  }
-  .showing {
-    max-height: 20em;
-  }
-/*  nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 24px 0;
-    text-align: center;
-  }*/
-
 }

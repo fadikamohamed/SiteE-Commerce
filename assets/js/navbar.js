@@ -7,5 +7,6 @@
       $('.modal').modal();
       //dropdown
       $('.dropdown-trigger').dropdown();
+      $('.sidenav').sidenav();
+
     });
-  
