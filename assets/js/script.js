@@ -180,23 +180,23 @@ console.log(menShits[0].name);
 for (var i = 0; i < menShits.length; i++) {
   $('#menShits').append('<div class="article"><img src="' + menShits[i].image + '" />\n<p class="articleName">' + menShits[i].name + ' | ref: ' + menShits[i].ref +'</p>\n<p class="articleName">' + menShits[i].price + ' euros</p><button type="button" id="button' + menShits[i].ref + '">Ajouter au panier !</button></div>');
 }
-//Tshirts femme
+//Jeans homme
 console.log(menJeans[0].name);
 for (var i = 0; i < menJeans.length; i++) {
   $('#menJeans').append('<div class="article"><img src="' + menJeans[i].image + '" />\n<p class="articleName">' + menJeans[i].name + ' | ref: ' + menJeans[i].ref +'</p>\n<p class="articleName">' + menJeans[i].price + ' euros</p><button type="button" id="button' + menJeans[i].ref + '">Ajouter au panier !</button></div>');
 }
-//Tshirts femme
+//Pantalons homme
 console.log(menPants[0].name);
 for (var i = 0; i < womenTshirts.length; i++) {
   $('#menPants').append('<div class="article"><img src="' + menPants[i].image + '" />\n<p class="articleName">' + menPants[i].name + ' | ref: ' + menPants[i].ref +'</p>\n<p class="articleName">' + menPants[i].price + ' euros</p><button type="button" id="button' + menPants[i].ref + '">Ajouter au panier !</button></div>');
 }
-//Tshirts femme
+//Tshirts homme
 console.log(menTshirts[0].name);
 for (var i = 0; i < womenTshirts.length; i++) {
   $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
 }
 
-
+/*
 //Filles
 
 //Chemise fille
