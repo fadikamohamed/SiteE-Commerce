@@ -54,55 +54,48 @@ womenJeans = [
 
 //Homme
 
+//Chemises homme
+menShits = [
+  { ref: 'mc1', image: 'assets/img/homme/Chemise/chemise1.jpg', name: 'chemise à carreaux manche courte', price: '15,99' },
+  //{ ref: 'mc2', image: 'assets/img/homme/Chemise/chemise2.jpg', name: 'chemise à carreaux', price: '15,99' },
+  { ref: 'mc3', image: 'assets/img/homme/Chemise/chemise3.jpg', name: 'chemise bleu', price: '15,99' },
+  { ref: 'mc3', image: 'assets/img/homme/Chemise/chemise4.jpg', name: 'chemise rose', price: '19,99' }
+];
+//Jeans homme
+menJeans = [
+  { ref: 'mj1', image: 'assets/img/homme/jean/jean1.jpg', name: 'jean gris', price: '29,99' },
+  { ref: 'mj2', image: 'assets/img/homme/jean/jean5.jpg', name: 'jean rose', price: '29,99' },
+  { ref: 'mj3', image: 'assets/img/homme/jean/jean3.jpg', name: 'jean noir', price: '25' },
+  { ref: 'mj4', image: 'assets/img/homme/jean/jean4.jpg', name: 'jean bleu', price: '39,99' }
+];
 //Pantalons homme
   menPants = [
     { ref: 'mp1', image: 'assets/img/homme/pantalon/pantalon1.jpg', name: 'Pantalon noir', price: '29,99' },
     { ref: 'mp2', image: 'assets/img/homme/pantalon/pantalon2.jpg', name: 'Pantalon cintré', price: '25,99' },
     { ref: 'mp3', image: 'assets/img/homme/pantalon/pantalon3.jpg', name: 'Pantalon gris', price: '29,99' }
   ];
-//Jeans homme
-   menJeans = [
-    { ref: 'mj1', image: 'assets/img/homme/jean/jupe1.jpg', name: 'jean gris', price: '29,99' },
-    { ref: 'mj2', image: 'assets/img/homme/jean/jupe5.jpg', name: 'jean rose', price: '29,99' },
-    { ref: 'mj3', image: 'assets/img/homme/jean/jupe3.jpg', name: 'jean noir', price: '25' },
-    { ref: 'mj4', image: 'assets/img/homme/jean/jupe4.jpg', name: 'jean bleu', price: '39,99' }
-  ],
-   veste = [
-    { ref: 'mv1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'veste en jean', price: '29,99' },
-    { ref: 'mv2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'veste kaki', price: '29,99' },
-    { ref: 'mv3', image: 'assets/img/femme/jupe/jupe3.jpg', name: 'veste bleu nuit', price: '39,99' }
-  ],
-   tshirts = [
-    { ref: 'mt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'tshirts bleu', price: '9,99' },
-    { ref: 'mt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'shirts gris', price: '9,99' },
-    { ref: 'mt3', image: 'assets/img/femme/jupe/jupe3.jpg', name: 'tshirts bleu', price: '9,99' }
-  ],
-//Chemises homme
-  chemise = [
-    { ref: 'mc1', image: 'assets/img/homme/Chemise/chemise1.jpg', name: 'chemise à carreaux manche courte', price: '15,99' },
-    { ref: 'mc2', image: 'assets/img/homme/Chemise/chemise2.jpg', name: 'chemise à carreaux', price: '15,99' },
-    { ref: 'mc3', image: 'assets/img/homme/Chemise/chemise3.jpg', name: 'chemise bleu', price: '15,99' }
-    { ref: 'mc3', image: 'assets/img/homme/Chemise/chemise4.jpg', name: 'chemise rose', price: '19,99' }
-  ],
-  pull = [
-    { ref: 'mp1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pull bleu', price: '29,99' },
-    { ref: 'mp2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pull gris à motif', price: '25,99' },
-    { ref: 'mp3', image: 'assets/img/femme/jupe/jupe3.jpg', name: 'pull bleu et vert', price: '29,99' }
-  ],
-];
+//Tshirts homme
+   menTshirts = [
+    { ref: 'mt1', image: 'assets/img/homme/T_shirt/Tshirt1.jpg', name: 'tshirts bleu', price: '9,99' },
+    { ref: 'mt2', image: 'assets/img/homme/T_shirt/Tshirt2.jpg', name: 'shirts gris', price: '9,99' },
+    { ref: 'mt3', image: 'assets/img/homme/T_shirt/Tshirt3.jpg', name: 'tshirts bleu', price: '9,99' }
+  ];
 
+  /*
 //Filles
-var girl = [
-
-  Robes: [
+  Robes = [
     { ref: 'gr1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'robe en jean', price: '9,99' },
     { ref: 'gr2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'robe prune', price: '5,99' },
     { ref: 'gr3', image: 'assets/img/femme/jupe/jupe3.jpg', name: 'robe jaune poussin', price: '12,99' }
-  ],
+  ];
+
+//
   jupes = [
     { ref: 'gj1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'jupe bleu', price: '6,99' },
     { ref: 'gj2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'jupe rose', price: '9,99' }
-  ],
+  ];
+
+//
   pantalon = [
     { ref: 'gpt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pantalon rose', price: '10,99' },
     { ref: 'gpt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pantalon gris', price: '12,99€' }
@@ -147,7 +140,7 @@ $(function() {
   //Chemisier femme
   console.log(womenBlouse[0].name);
   for (var i = 0; i < womenBlouse.length; i++) {
-    $('#womenBlouse').append('<div class="article"><img src="' + womenBlouse[i].image + '" />\n<p class="articleName">' + womenBlouse[i].name + ' | ref: ' + womenBlouse[i].ref +'</p>\n<p class="articleName">' + womenBlouse[i].price + ' euros</p><button type="button" id="button' + womenBlouse[i].ref + '">Ajouter au panier !</button></div>');
+    $('#womenBlouse').append('<div class="article"><img src="' + womenBlouse[i].image + '" />\n<p class="articleName">' + womenBlouse[i].name + ' | ref: ' + womenBlouse[i].ref +'</p>\n<p class="articleName">' + womenBlouse[i].price + ' euros</p><button type="button" onclick=";" id="button' + womenBlouse[i].ref + '">Ajouter au panier !</button></div>');
   }
   //Jeans femme
   console.log(womenJeans[0].name);
@@ -180,6 +173,57 @@ $(function() {
    $('#womenTshirts').append('<div class="article"><img src="' + womenTshirts[i].image + '" />\n<p class="articleName">' + womenTshirts[i].name + ' | ref: ' + womenTshirts[i].ref +'</p>\n<p class="articleName">' + womenTshirts[i].price + ' euros</p><button type="button" id="button' + womenTshirts[i].ref + '">Ajouter au panier !</button></div>');
  }
 
+//homme
+
+//Chemises homme
+console.log(menShits[0].name);
+for (var i = 0; i < menShits.length; i++) {
+  $('#menShits').append('<div class="article"><img src="' + menShits[i].image + '" />\n<p class="articleName">' + menShits[i].name + ' | ref: ' + menShits[i].ref +'</p>\n<p class="articleName">' + menShits[i].price + ' euros</p><button type="button" id="button' + menShits[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Tshirts femme
+console.log(menJeans[0].name);
+for (var i = 0; i < menJeans.length; i++) {
+  $('#menJeans').append('<div class="article"><img src="' + menJeans[i].image + '" />\n<p class="articleName">' + menJeans[i].name + ' | ref: ' + menJeans[i].ref +'</p>\n<p class="articleName">' + menJeans[i].price + ' euros</p><button type="button" id="button' + menJeans[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Tshirts femme
+console.log(menPants[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menPants').append('<div class="article"><img src="' + menPants[i].image + '" />\n<p class="articleName">' + menPants[i].name + ' | ref: ' + menPants[i].ref +'</p>\n<p class="articleName">' + menPants[i].price + ' euros</p><button type="button" id="button' + menPants[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Tshirts femme
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
+
+
+//Filles
+
+//Chemise fille
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Robes fille
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Pantalons fille
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Manteaux fille
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
+//Pulls fille
+console.log(menTshirts[0].name);
+for (var i = 0; i < womenTshirts.length; i++) {
+  $('#menTshirts').append('<div class="article"><img src="' + menTshirts[i].image + '" />\n<p class="articleName">' + menTshirts[i].name + ' | ref: ' + menTshirts[i].ref +'</p>\n<p class="articleName">' + menTshirts[i].price + ' euros</p><button type="button" id="button' + menTshirts[i].ref + '">Ajouter au panier !</button></div>');
+}
 
 
 
@@ -208,6 +252,11 @@ $(function() {
  for (var i = 0; i < womenSkirt.length; i++) {
    $('#womenSkirt').append('<div class="article"><img src="' + womenSkirt[i].image + '" />\n<p class="articleName">' + womenSkirt[i].name + '</p>\n<p class="articleName">' + womenSkirt[i].price + ' euros</p><button type="button" id="button' + womenSkirt[i].ref + '">Mettre dans le panier !</button></div>');
  }*/
+
+ $('#button' + womenPants[i].ref).click(function() {
+   $('#basket').append('<img src="' + womenPants[i].image + '" />');
+ })
+
   $('#navBarreWomen').click(function() {
     $('#women').show();
     $('.onlyWomen').hide();
