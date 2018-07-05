@@ -20,41 +20,42 @@
     <!--structure dropdown-->
     <div id="categoriesMen" class="onlyWomen onlyChildren onlyaccessory">
       <ul id="dropdown1" class="dropdown-content"> <!--dropdown hommes-->
-        <li><a href="#!"></a>Pantalons</li>
-        <li><a href="#!"></a>Jeans</li>
-        <li><a href="#!"></a>T-shirt</li>
-        <li><a href="#!"></a>Chemises</li>
-        <li><a href="#!"></a>Pulls - Gilets</li>
-        <li><a href="#!"></a>Manteaux - Vestes</li>
+        <li><a href="#"></a>Pantalons</li>
+        <li><a href="#menJeans"></a>Jeans</li>
+        <li><a href="#menTshirt"></a>T-shirt</li>
+        <li><a href="#menShits"></a>Chemises</li>
+        <li><a href="#menSuits"></a>Costumes / Blazzers</li>
+        <li><a href="#menCoats"></a>Manteaux - Vestes</li>
       </ul>
     </div>
     <div id="categoriesWomen" class="onlyMen onlyChildren onlyaccessory">
       <ul id="dropdown2" class="dropdown-content"> <!-- dropdown femmes-->
-        <li><a href="#!"></a>Jupes</li>
-        <li><a href="#!"></a>Robes</li>
-        <li><a href="#!"></a>Pantalons</li>
-        <li><a href="#!"></a>Jeans</li>
-        <li><a href="#!"></a>T-shirt</li>
-        <li><a href="#!"></a>Chemisiers</li>
-        <li><a href="#!"></a>Pulls - Gilets</li>
-        <li><a href="#!"></a>Manteaux - Vestes</li>
+        <li><a href="#womenSkirt"></a>Jupes</li>
+        <li><a href="#womenDresses"></a>Robes</li>
+        <li><a href="#womenPants"></a>Pantalons</li>
+        <li><a href="#womenJeans"></a>Jeans</li>
+        <li><a href="#womenTshirts"></a>T-shirt</li>
+        <li><a href="#womenBlouse"></a>Chemisiers</li>
+        <li><a href="#womenPullover"></a>Pulls - Gilets</li>
+        <li><a href="#womenCoats"></a>Manteaux - Vestes</li>
       </ul>
     </div>
     <div id="categoriesChildren" class="onlyWomen onlyMen onlyaccessory">
       <ul id="dropdown3" class="dropdown-content"> <!--dropdown enfants -->
         <li><h4>Filles</h4></li>    <!-- filles -->
-        <li><a href="#!"></a>Jupes</li>
-        <li><a href="#!"></a>Robes</li>
-        <li><a href="#!"></a>Pantalons</li>
-        <li><a href="#!"></a>Chemisiers</li>
-        <li><a href="#!"></a>Pulls - Gilets</li>
+        <li><a href="#girlCoats"></a>Manteaux / Blousons</li>
+        <li><a href="#girlDresses"></a>Robes</li>
+        <li><a href="#girlPants"></a>Pantalons</li>
+        <li><a href="#girlShirts"></a>Chemisiers</li>
+        <li><a href="#girlPullover"></a>Pulls</li>
         <li class="divider" tabindex="-1"></li>
         <li><h4>Garçons</h4></li> <!-- garçons -->
-        <li><a href="#!"></a>Pantalons</li>
+        <li><a href="#boyPants"></a>Pantalons</li>
         <li><a href="#!"></a>Shorts</li>
-        <li><a href="#!"></a>Jeans</li>
-        <li><a href="#!"></a>T-shirt</li>
-        <li><a href="#!"></a>Manteaux - Vestes</li>
+        <li><a href="#boyJeans"></a>Jeans</li>
+        <li><a href="#boyTshirt"></a>T-shirt</li>
+        <li><a href="#boyShirts"></a>Chemises</li>
+        <li><a href="#boyCoats"></a>Manteaux /Blousons</li>
       </ul>
     </div>
     <div id="categoriesaccessory" class="onlyWomen onlyMen onlyChildren">
@@ -110,10 +111,10 @@
           </div>
         </form>
       </li>
-      <li><a class="dropdown-trigger-mobile" href="#!" data-target="dropdown1">Hommes<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a class="dropdown-trigger-mobile" href="#!" data-target="dropdown2">Femmes<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a class="dropdown-trigger-mobile" href="#!" data-target="dropdown3">Enfants<i class="material-icons right">arrow_drop_down</i></a></li>
-      <li><a class="dropdown-trigger-mobile" href="#!" data-target="dropdown4">Accessoires<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="#contentWomen">Hommes</a></li>
+      <li><a href="#contentWomen">Femmes</a></li>
+      <li><a href="#contentChildren">Enfants</a></li>
+      <li><a href="#contentAccessory">Accessoires</a></li>
       <li><a href="#modal1" class="waves-effect waves-light btn-flat modal-trigger"><i id="shopping_cart" class="large material-icons">shopping_cart</i></a> <!-- boutons fenêtre modal -->
         <!--contenu de la fenêtre modal-->
         <div id="modal1" class="modal bottom-sheet">
@@ -128,6 +129,27 @@
       </li>
 
     </ul>
+    <div class="container-fluid w-100" id="container">
+    <!--Background-->
+    <div class=" p-3 mb-2 bg-dark text-white ">
+      <!--carousel-->
+      <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/img/carrousel/men-2425121_1280.jpg" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/carrousel/joy-2483926_1280.jpg" alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/img/carrousel/model-3472185_1280.jpg" alt="Third slide" />
+          </div>
+          <div class="carousel-item">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 
 <!-- carroussel -->
@@ -194,7 +216,7 @@
     <h2>Jeans</h2>
     <div class="row" id="boyJeans"></div>
     <h2>Pantalons</h2>
-    <div class="row" id="girlPants"></div>
+    <div class="row" id="boyPants"></div>
     <h2>Manteaux / Blousons</h2>
     <div class="row" id="boyCoats"></div>
     <h2>T-Shirt</h2>
@@ -219,7 +241,41 @@
   </div>
 </div><!--content-->
 
+<!--footer-->
+  <footer class="row">
+    <div class="row w-100" id="footerListContainer">
+      <div class="col-4 col-sm-4 col-lg-2 ">
+        <ul class="list-group">
+          <li><h4>Nouveautés</h4></li>
+          <li><a href="#">Femmes</a></li>
+          <li><a href="#">Hommes</a></li>
+          <li><a href="#">Enfants</a></li>
+          <li><a href="#">Accessoires</a></li>
+        </ul>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-2">
+        <ul class="list-group">
+          <li><h4>Produits</h4></li>
+          <li><a href="#">Ventes et support</a></li>
+          <li><a href="#">Retours</a></li>
+        </ul>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-2">
+        <ul class="list-group">
+          <li><h4>Société</h4></li>
+          <li><a href="#">Emploi</a></li>
+          <li><a href="#">Actualités de la société</a></li>
+          <li><a href="#">Confidentialité et Cookies</a></li>
+          <li><a href="#">Conditions d'utilisation</a></li>
+          <li><a href="#">Marques</a></li>
+          <li><a href="#">A propos de nos produits</a></li>
+          <li><a href="#">Contactez nous</a></li>
+        </ul>
+      </div>
+    </div>
 
+  </div>
+</footer>
 
 
 
