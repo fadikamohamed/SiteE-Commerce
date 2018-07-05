@@ -1,67 +1,14 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-body {
-  font-family: Quicksand;
-}
-header {
-  width: 100%;
-  height: 100vh;
-  background: url(../img/background.jpeg) no-repeat;
-  background-size: cover;
-}
-.content {
-  width: 90%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-}
-.logo {
-  position: fixed;
-  float: left;
-  margin: 16px 36px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 24px;
-}
-nav {
-  position: fixed;
-  width: 100%;
-}
-nav ul {
-  list-style: none;
-  background: rgba(0,0,0,0);
-  overflow: hidden;
-  color: #fff;
-  padding-left: 0;
-  text-align: center;
-  margin: 0;
-  transition: 1s;
-}
-nav.black ul {
-  background: #000;
-}
-nav ul li {
-  display: inline-block;
-  padding: 20px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
+h1{
   font-size: 20px;
 }
-.menu-icon {
-  width: 100%;
-  background: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
-  cursor: pointer;
-  color: #fff;
-  display: none;
+h2{
+  font-size: 20px;
+  color:red ;
 }
+ul{
+  font-size: 12px;
+}
+<<<<<<< HEAD
 .large material-icon {
   position: right;
 }
@@ -90,4 +37,8 @@ nav ul li a {
   .menu-icon {
     display: block;
   }
+=======
+.card{
+  margin-bottom: 10px;
+>>>>>>> 968955f2b57571b2639638f4dd8b33ee96f1328b
 }
