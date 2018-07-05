@@ -42,3 +42,9 @@ ul{
   margin-bottom: 10px;
 >>>>>>> 968955f2b57571b2639638f4dd8b33ee96f1328b
 }
+.article {
+  display: inline-block;
+}
+.articleName {
+  text-align: center;
+}
