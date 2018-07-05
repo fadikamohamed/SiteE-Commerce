@@ -12,12 +12,8 @@ header {
   background: url(../img/background.jpeg) no-repeat;
   background-size: cover;
 }
-.content {
-  width: 90%;
-  margin: 4em auto;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
+.dropdown-content {
+  text
 }
 .logo {
   position: fixed;
@@ -28,7 +24,6 @@ header {
   font-size: 24px;
 }
 nav {
-  position: fixed;
   width: 100%;
 }
 nav ul {
@@ -46,24 +41,15 @@ nav.black ul {
 }
 nav ul li {
   display: inline-block;
-  padding: 20px;
 }
 nav ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
 }
-.menu-icon {
-  width: 100%;
-  background: right;
-  box-sizing: border-box;
-  padding: 15px 24px;
-  cursor: pointer;
-  color: #fff;
-  display: none;
-}
-.large material-icon {
-  position: right;
+#shopping_cart{
+position: center;
+color: #8bc34a;
 }
 @media(max-width: 580px) {
   .logo {
@@ -81,13 +67,11 @@ nav ul li a {
   .showing {
     max-height: 20em;
   }
-  nav ul li {
+/*  nav ul li {
     box-sizing: border-box;
     width: 100%;
     padding: 24px 0;
     text-align: center;
-  }
-  .menu-icon {
-    display: block;
-  }
+  }*/
+
 }
