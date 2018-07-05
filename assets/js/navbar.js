@@ -7,6 +7,10 @@
       $('.modal').modal();
       //dropdown
       $('.dropdown-trigger').dropdown();
+      //sidenav pour responsive
       $('.sidenav').sidenav();
+//dropdown mobile
+    $('.dropdown-trigger-mobile').dropdown();
+
 
     });
