@@ -53,7 +53,6 @@ womenJeans = [
   ];
 
 //Homme
-
 //Chemises homme
 menShits = [
   { ref: 'mc1', image: 'assets/img/homme/Chemise/chemise1.jpg', name: 'chemise à carreaux manche courte', price: '15,99' },
@@ -99,42 +98,40 @@ menJeans = [
   pantalon = [
     { ref: 'gpt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pantalon rose', price: '10,99' },
     { ref: 'gpt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pantalon gris', price: '12,99€' }
-  ],
+  ];
   tshirts = [
     { ref: 'gt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'Tshirts noir', price: '5,99€' },
     { ref: 'gt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'tshirts rose croco', price: '5,99€' }
-  ],
+  ];
   pull = [
     { ref: 'gp1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pull à rayures', price: '8,99€' },
     { ref: 'gp2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pull à  rayures noir et blanc', price: '11,99€' }
-  ],
-];
+  ];
 
 //Garçons
-var boy = [
 
   pantalon = [
     { ref: 'bp1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'robe en jean', price: '9,99€' },
     { ref: 'bp2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'robe prune', price: '5,99€' },
     { ref: 'bp3', image: 'assets/img/femme/jupe/jupe3.jpg', name: 'robe jaune poussin', price: '12,99€' }
-  ],
+  ];
   shorts = [
     { ref: 'bs1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'jupe bleu', price: '6,99€' },
     { ref: 'bs2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'jupe rose', price: '9,99€' }
-  ],
+  ];
   jean = [
     { ref: 'bj1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pantalon rose', price: '10,99€' },
     { ref: 'bj2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pantalon gris', price: '12,99€' }
-  ],
+  ];
   tshirts = [
     { ref: 'bt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'Tshirts noir', price: '5,99€' },
     { ref: 'bt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'tshirts rose croco', price: '5,99€' }
-  ],
+  ];
   veste = [
     { ref: 'bv1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pull à rayures', price: '8,99€' },
     { ref: 'bv2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pull à  rayures noir et blanc', price: '11,99€' }
-  ],
-];*/
+  ];
+*/
 
 $(function() {
   //Chemisier femme
