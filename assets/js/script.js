@@ -53,6 +53,7 @@ womenJeans = [
   ];
 
 //Homme
+
 //Chemises homme
 menShits = [
   { ref: 'mc1', image: 'assets/img/homme/Chemise/chemise1.jpg', name: 'chemise à carreaux manche courte', price: '15,99' },
@@ -98,7 +99,7 @@ menJeans = [
   pantalon = [
     { ref: 'gpt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'pantalon rose', price: '10,99' },
     { ref: 'gpt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pantalon gris', price: '12,99€' }
-  ];
+  ]
   tshirts = [
     { ref: 'gt1', image: 'assets/img/femme/jupe/jupe1.jpg', name: 'Tshirts noir', price: '5,99€' },
     { ref: 'gt2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'tshirts rose croco', price: '5,99€' }
@@ -248,8 +249,16 @@ for (var i = 0; i < womenTshirts.length; i++) {
  console.log(womenSkirt[0].name);
  for (var i = 0; i < womenSkirt.length; i++) {
    $('#womenSkirt').append('<div class="article"><img src="' + womenSkirt[i].image + '" />\n<p class="articleName">' + womenSkirt[i].name + '</p>\n<p class="articleName">' + womenSkirt[i].price + ' euros</p><button type="button" id="button' + womenSkirt[i].ref + '">Mettre dans le panier !</button></div>');
- }*/
+ }
+ actionClick = document.getElementsByClass('Bclick');
+ actionClick.onclick =
+ function basket() {
+   //Changement de la couleur du texte
+   var parent = document.createElement("myImg").src(womanSkirt[i].image);
+    document.getElementById("basket").innerHTML = parent;
+    */
 
+ }
  $('#button' + womenPants[i].ref).click(function() {
    $('#basket').append('<img src="' + womenPants[i].image + '" />');
  })
