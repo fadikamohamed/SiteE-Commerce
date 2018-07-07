@@ -1,3 +1,4 @@
+//Créer des tableau entre crocher contenant des objets entre acollades qui eux meme contiennent les références images noms et prix
 //chemisiers
 womenBlouse = [
   { ref: 'wb1', image: 'assets/img/femme/chemisiers/chemisier1.jpg', name: 'Chemise bras nu ', price: '19,99' },
@@ -133,11 +134,15 @@ menJeans = [
     { ref: 'bv2', image: 'assets/img/femme/jupe/jupe2.jpg', name: 'pull à  rayures noir et blanc', price: '11,99€' }
   ];
 */
-
+//Déclaration de la fonction
 $(function() {
   //Chemisier femme
   console.log(womenBlouse[0].name);
+  //Déclaration de la boucle
+  //Pour une variable i égle a 0 tant que i est inferieur a wommenBlouse.length (nombre d'objets contenu dans le tableau) incrémenter i de 1
   for (var i = 0; i < womenBlouse.length; i++) {
+    //Et éffectuer la fonction ci dessous a chaque tours de boucle...
+    //Dans la balise contenant l'id womenBlouse ouvrir les balise '<div classe="article"> et <img src="' ajouter ensuite l'élements du tableau contenant les url des images womenBlouse[i].image (i étant égale au nombre de tour de la boucle et a la clé de l'objet voulu). fermer la balise img et creer une balise <p> pour y ajouter la réf de l'objet puis une autre balise <p> pour le prix et enfin un bouton cliquable
     $('#womenBlouse').append('<div class="article"><img src="' + womenBlouse[i].image + '" />\n<p class="articleName">' + womenBlouse[i].name + ' | ref: ' + womenBlouse[i].ref +'</p>\n<p class="articleName">' + womenBlouse[i].price + ' euros</p><button type="button" onclick=";" id="button' + womenBlouse[i].ref + '">Ajouter au panier !</button></div>');
   }
   //Jeans femme
@@ -256,17 +261,21 @@ for (var i = 0; i < womenTshirts.length; i++) {
    //Changement de la couleur du texte
    var parent = document.createElement("myImg").src(womanSkirt[i].image);
     document.getElementById("basket").innerHTML = parent;
-    */
 
  }
  $('#button' + womenPants[i].ref).click(function() {
    $('#basket').append('<img src="' + womenPants[i].image + '" />');
  })
+ */
 
+//Au moment du clic sur le button contenant la balise navBarreWomen...
   $('#navBarreWomen').click(function() {
+    //Monter la balise contenant l'id women
     $('#women').show();
+    //Et cocher les balises contenant les classes onlyWomen
     $('.onlyWomen').hide();
   });
+  //Meme schéma en dessous
   $('#navBarreMen').click(function() {
     $('#men').show();
     $('.onlyMen').hide();
