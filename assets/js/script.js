@@ -270,9 +270,9 @@ for (var i = 0; i < womenTshirts.length; i++) {
 
 //Au moment du clic sur le button contenant la balise navBarreWomen...
   $('#navBarreWomen').click(function() {
-    //Monter la balise contenant l'id women
+    //Montrer la balise contenant l'id women
     $('#women').show();
-    //Et cocher les balises contenant les classes onlyWomen
+    //Et cacher les balises contenant la class onlyWomen
     $('.onlyWomen').hide();
   });
   //Meme schéma en dessous
